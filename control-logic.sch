@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:servo-module-pcb-v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -88,7 +88,7 @@ F 3 "" H 7950 5200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R14
+L R-RESCUE-servo-module-pcb-v1 R14
 U 1 1 5325B4BA
 P 9650 6200
 F 0 "R14" V 9730 6200 40  0000 C CNN
@@ -99,7 +99,7 @@ F 3 "~" H 9650 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-servo-module-pcb-v1 R13
 U 1 1 5325B4C9
 P 9450 6200
 F 0 "R13" V 9530 6200 40  0000 C CNN
@@ -110,7 +110,7 @@ F 3 "~" H 9450 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-servo-module-pcb-v1 R12
 U 1 1 5325B4D8
 P 9250 6200
 F 0 "R12" V 9330 6200 40  0000 C CNN
@@ -121,7 +121,7 @@ F 3 "~" H 9250 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-servo-module-pcb-v1 R11
 U 1 1 5325B4E7
 P 9050 6200
 F 0 "R11" V 9130 6200 40  0000 C CNN
@@ -132,7 +132,7 @@ F 3 "~" H 9050 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-servo-module-pcb-v1 R10
 U 1 1 5325B4F6
 P 8850 6200
 F 0 "R10" V 8930 6200 40  0000 C CNN
@@ -143,7 +143,7 @@ F 3 "~" H 8850 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-servo-module-pcb-v1 R9
 U 1 1 5325B505
 P 8650 6200
 F 0 "R9" V 8730 6200 40  0000 C CNN
@@ -154,7 +154,7 @@ F 3 "~" H 8650 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-servo-module-pcb-v1 R8
 U 1 1 5325B514
 P 8450 6200
 F 0 "R8" V 8530 6200 40  0000 C CNN
@@ -165,7 +165,7 @@ F 3 "~" H 8450 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-servo-module-pcb-v1 R7
 U 1 1 5325B523
 P 8250 6200
 F 0 "R7" V 8330 6200 40  0000 C CNN
@@ -176,7 +176,7 @@ F 3 "~" H 8250 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND-RESCUE-servo-module-pcb-v1 #PWR10
 U 1 1 5325BA22
 P 9050 6650
 F 0 "#PWR10" H 9050 6650 30  0001 C CNN
@@ -187,7 +187,7 @@ F 3 "" H 9050 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND-RESCUE-servo-module-pcb-v1 #PWR8
 U 1 1 53262BD9
 P 3050 5600
 F 0 "#PWR8" H 3050 5600 30  0001 C CNN
@@ -225,7 +225,7 @@ F 3 "~" H 1900 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-servo-module-pcb-v1 C2
 U 1 1 53264A23
 P 1500 2000
 F 0 "C2" H 1500 2100 40  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "~" H 1500 2000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-servo-module-pcb-v1 C1
 U 1 1 53264A32
 P 1500 1400
 F 0 "C1" H 1500 1500 40  0000 L CNN
@@ -247,7 +247,7 @@ F 3 "~" H 1500 1400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR2
+L GND-RESCUE-servo-module-pcb-v1 #PWR2
 U 1 1 53264B7B
 P 1200 2100
 F 0 "#PWR2" H 1200 2100 30  0001 C CNN
@@ -290,7 +290,7 @@ F 3 "~" H 8500 1750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED PG1
+L LED-RESCUE-servo-module-pcb-v1 PG1
 U 1 1 53267B24
 P 10100 1250
 F 0 "PG1" H 10100 1350 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "~" H 10100 1250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED HB1
+L LED-RESCUE-servo-module-pcb-v1 HB1
 U 1 1 53267B33
 P 9800 1250
 F 0 "HB1" H 9800 1350 50  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "~" H 9800 1250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-servo-module-pcb-v1 R2
 U 1 1 53267B42
 P 8500 1100
 F 0 "R2" V 8580 1100 40  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "~" H 8500 1100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-servo-module-pcb-v1 R1
 U 1 1 53267B51
 P 8050 1100
 F 0 "R1" V 8130 1100 40  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "~" H 8050 1100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-servo-module-pcb-v1 R4
 U 1 1 53267B60
 P 10100 1800
 F 0 "R4" V 10180 1800 40  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "~" H 10100 1800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-servo-module-pcb-v1 R3
 U 1 1 53267B6F
 P 9800 1800
 F 0 "R3" V 9880 1800 40  0000 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 9550 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-servo-module-pcb-v1 C3
 U 1 1 53267B9C
 P 6350 6150
 F 0 "C3" H 6350 6250 40  0000 L CNN
@@ -378,7 +378,7 @@ F 3 "~" H 6350 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-servo-module-pcb-v1 C4
 U 1 1 53267BAB
 P 6600 6150
 F 0 "C4" H 6600 6250 40  0000 L CNN
@@ -389,7 +389,7 @@ F 3 "~" H 6600 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-servo-module-pcb-v1 C5
 U 1 1 53267BBA
 P 6850 6150
 F 0 "C5" H 6850 6250 40  0000 L CNN
@@ -400,7 +400,7 @@ F 3 "~" H 6850 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-servo-module-pcb-v1 C6
 U 1 1 53267BC9
 P 7100 6150
 F 0 "C6" H 7100 6250 40  0000 L CNN
@@ -411,7 +411,7 @@ F 3 "~" H 7100 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-servo-module-pcb-v1 C7
 U 1 1 53267BD8
 P 7350 6150
 F 0 "C7" H 7350 6250 40  0000 L CNN
@@ -422,7 +422,7 @@ F 3 "~" H 7350 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND-RESCUE-servo-module-pcb-v1 #PWR9
 U 1 1 53268402
 P 6350 6550
 F 0 "#PWR9" H 6350 6550 30  0001 C CNN
@@ -441,7 +441,7 @@ Text Label 7500 1400 0    60   ~ 0
 Text Label 8050 750  0    60   ~ 0
 LOCAL_3V3
 $Comp
-L GND #PWR3
+L GND-RESCUE-servo-module-pcb-v1 #PWR3
 U 1 1 53268FE5
 P 8050 2250
 F 0 "#PWR3" H 8050 2250 30  0001 C CNN
@@ -452,7 +452,7 @@ F 3 "" H 8050 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND-RESCUE-servo-module-pcb-v1 #PWR4
 U 1 1 532697A4
 P 9950 2250
 F 0 "#PWR4" H 9950 2250 30  0001 C CNN
@@ -467,7 +467,7 @@ HEARTBEAT
 Text Label 9300 850  0    60   ~ 0
 POWER_GOOD
 $Comp
-L GND #PWR5
+L GND-RESCUE-servo-module-pcb-v1 #PWR5
 U 1 1 5326A151
 P 7850 3100
 F 0 "#PWR5" H 7850 3100 30  0001 C CNN
@@ -490,7 +490,7 @@ RXD
 Text Label 10300 2600 2    60   ~ 0
 TXD
 $Comp
-L GND #PWR6
+L GND-RESCUE-servo-module-pcb-v1 #PWR6
 U 1 1 5326B790
 P 10000 3100
 F 0 "#PWR6" H 10000 3100 30  0001 C CNN
@@ -518,7 +518,7 @@ SCL
 Text Label 8400 4050 0    60   ~ 0
 SDA
 $Comp
-L GND #PWR7
+L GND-RESCUE-servo-module-pcb-v1 #PWR7
 U 1 1 533CA56F
 P 9100 4150
 F 0 "#PWR7" H 9100 4150 30  0001 C CNN
@@ -529,7 +529,7 @@ F 3 "" H 9100 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-servo-module-pcb-v1 R6
 U 1 1 533CAC4E
 P 8950 3650
 F 0 "R6" V 9030 3650 40  0000 C CNN
@@ -540,7 +540,7 @@ F 3 "~" H 8950 3650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-servo-module-pcb-v1 R5
 U 1 1 533CAE0E
 P 8750 3650
 F 0 "R5" V 8830 3650 40  0000 C CNN
@@ -609,7 +609,7 @@ F 3 "" H 2200 6850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L GND-RESCUE-servo-module-pcb-v1 #PWR11
 U 1 1 54EC01AF
 P 2200 7650
 F 0 "#PWR11" H 2200 7650 30  0001 C CNN
@@ -628,7 +628,7 @@ LOCAL_3V3
 Text Label 2750 6150 2    60   ~ 0
 LOCAL_5V
 $Comp
-L C C8
+L C-RESCUE-servo-module-pcb-v1 C8
 U 1 1 54EC1BB5
 P 3750 7250
 F 0 "C8" H 3750 7350 40  0000 L CNN
@@ -639,7 +639,7 @@ F 3 "~" H 3750 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-servo-module-pcb-v1 C9
 U 1 1 54EC1E37
 P 4050 7250
 F 0 "C9" H 4050 7350 40  0000 L CNN
@@ -650,7 +650,7 @@ F 3 "~" H 4050 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR12
+L GND-RESCUE-servo-module-pcb-v1 #PWR12
 U 1 1 54EC1E75
 P 3900 7650
 F 0 "#PWR12" H 3900 7650 30  0001 C CNN

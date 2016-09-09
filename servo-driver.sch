@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:servo-module-pcb-v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3250 4250 3250
 $Comp
-L GND #PWR15
+L GND-RESCUE-servo-module-pcb-v1 #PWR15
 U 1 1 55758CD7
 P 5150 4500
 F 0 "#PWR15" H 5150 4500 30  0001 C CNN
@@ -111,7 +111,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2850 7350 2850
 $Comp
-L R R15
+L R-RESCUE-servo-module-pcb-v1 R15
 U 1 1 55758D17
 P 6200 3250
 F 0 "R15" V 6280 3250 40  0000 C CNN
@@ -122,7 +122,7 @@ F 3 "" H 6200 3250 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-servo-module-pcb-v1 R16
 U 1 1 55758D77
 P 6600 3350
 F 0 "R16" V 6680 3350 40  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "" H 6600 3350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-servo-module-pcb-v1 R17
 U 1 1 55758DA2
 P 6200 3450
 F 0 "R17" V 6280 3450 40  0000 C CNN
@@ -144,7 +144,7 @@ F 3 "" H 6200 3450 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R18
+L R-RESCUE-servo-module-pcb-v1 R18
 U 1 1 55758DCE
 P 6600 3550
 F 0 "R18" V 6680 3550 40  0000 C CNN
@@ -155,7 +155,7 @@ F 3 "" H 6600 3550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R19
+L R-RESCUE-servo-module-pcb-v1 R19
 U 1 1 55758E0E
 P 6200 3650
 F 0 "R19" V 6280 3650 40  0000 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 6200 3650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R20
+L R-RESCUE-servo-module-pcb-v1 R20
 U 1 1 55758E36
 P 6600 3750
 F 0 "R20" V 6680 3750 40  0000 C CNN
@@ -177,7 +177,7 @@ F 3 "" H 6600 3750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R21
+L R-RESCUE-servo-module-pcb-v1 R21
 U 1 1 55758E5D
 P 6200 3850
 F 0 "R21" V 6280 3850 40  0000 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 6200 3850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R22
+L R-RESCUE-servo-module-pcb-v1 R22
 U 1 1 55758EA1
 P 6600 3950
 F 0 "R22" V 6680 3950 40  0000 C CNN
@@ -310,7 +310,7 @@ Wire Wire Line
 	7950 3350 7850 3350
 Connection ~ 7850 3350
 $Comp
-L GND #PWR14
+L GND-RESCUE-servo-module-pcb-v1 #PWR14
 U 1 1 557595E9
 P 7850 4150
 F 0 "#PWR14" H 7850 4150 30  0001 C CNN
@@ -381,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 5350 4250 5350
 $Comp
-L GND #PWR18
+L GND-RESCUE-servo-module-pcb-v1 #PWR18
 U 1 1 55759ADF
 P 5150 6600
 F 0 "#PWR18" H 5150 6600 30  0001 C CNN
@@ -396,7 +396,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 5300 5150 4950
 $Comp
-L R R23
+L R-RESCUE-servo-module-pcb-v1 R23
 U 1 1 55759AE8
 P 6200 5350
 F 0 "R23" V 6280 5350 40  0000 C CNN
@@ -407,7 +407,7 @@ F 3 "" H 6200 5350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R24
+L R-RESCUE-servo-module-pcb-v1 R24
 U 1 1 55759AEE
 P 6600 5450
 F 0 "R24" V 6680 5450 40  0000 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 6600 5450 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R25
+L R-RESCUE-servo-module-pcb-v1 R25
 U 1 1 55759AF4
 P 6200 5550
 F 0 "R25" V 6280 5550 40  0000 C CNN
@@ -429,7 +429,7 @@ F 3 "" H 6200 5550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R26
+L R-RESCUE-servo-module-pcb-v1 R26
 U 1 1 55759AFA
 P 6600 5650
 F 0 "R26" V 6680 5650 40  0000 C CNN
@@ -440,7 +440,7 @@ F 3 "" H 6600 5650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R27
+L R-RESCUE-servo-module-pcb-v1 R27
 U 1 1 55759B00
 P 6200 5750
 F 0 "R27" V 6280 5750 40  0000 C CNN
@@ -451,7 +451,7 @@ F 3 "" H 6200 5750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R28
+L R-RESCUE-servo-module-pcb-v1 R28
 U 1 1 55759B06
 P 6600 5850
 F 0 "R28" V 6680 5850 40  0000 C CNN
@@ -462,7 +462,7 @@ F 3 "" H 6600 5850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R29
+L R-RESCUE-servo-module-pcb-v1 R29
 U 1 1 55759B0C
 P 6200 5950
 F 0 "R29" V 6280 5950 40  0000 C CNN
@@ -473,7 +473,7 @@ F 3 "" H 6200 5950 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R30
+L R-RESCUE-servo-module-pcb-v1 R30
 U 1 1 55759B12
 P 6600 6050
 F 0 "R30" V 6680 6050 40  0000 C CNN
@@ -593,7 +593,7 @@ Wire Wire Line
 	7950 5450 7850 5450
 Connection ~ 7850 5450
 $Comp
-L GND #PWR17
+L GND-RESCUE-servo-module-pcb-v1 #PWR17
 U 1 1 55759B59
 P 7850 6250
 F 0 "#PWR17" H 7850 6250 30  0001 C CNN
@@ -624,7 +624,7 @@ Wire Wire Line
 	3700 4950 7350 4950
 Connection ~ 3700 4150
 $Comp
-L C C10
+L C-RESCUE-servo-module-pcb-v1 C10
 U 1 1 55767058
 P 3500 3600
 F 0 "C10" H 3500 3700 40  0000 L CNN
@@ -640,7 +640,7 @@ Wire Wire Line
 	3500 3300 3500 3400
 Connection ~ 3700 3300
 $Comp
-L GND #PWR13
+L GND-RESCUE-servo-module-pcb-v1 #PWR13
 U 1 1 55767318
 P 3500 3900
 F 0 "#PWR13" H 3500 3900 30  0001 C CNN
@@ -653,7 +653,7 @@ $EndComp
 Wire Wire Line
 	3500 3900 3500 3800
 $Comp
-L C C11
+L C-RESCUE-servo-module-pcb-v1 C11
 U 1 1 5576751C
 P 3500 5700
 F 0 "C11" H 3500 5800 40  0000 L CNN
@@ -668,7 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5400 3500 5500
 $Comp
-L GND #PWR16
+L GND-RESCUE-servo-module-pcb-v1 #PWR16
 U 1 1 55767524
 P 3500 6000
 F 0 "#PWR16" H 3500 6000 30  0001 C CNN

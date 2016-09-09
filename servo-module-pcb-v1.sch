@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:servo-module-pcb-v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -79,7 +79,7 @@ F24 "SERVO14" O R 7050 3300 60
 F25 "SERVO15" O R 7050 3400 60 
 $EndSheet
 $Comp
-L GND #PWR1
+L GND-RESCUE-servo-module-pcb-v1 #PWR1
 U 1 1 53811406
 P 2250 4600
 F 0 "#PWR1" H 2250 4600 30  0001 C CNN
@@ -120,21 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 1700 2550 1700
 Wire Wire Line
-	2250 2500 2250 2600
-Wire Wire Line
-	2250 2600 2250 2700
-Wire Wire Line
-	2250 2700 2250 2800
-Wire Wire Line
-	2250 2800 2250 4200
-Wire Wire Line
-	2250 4200 2250 4300
-Wire Wire Line
-	2250 4300 2250 4400
-Wire Wire Line
-	2250 4400 2250 4500
-Wire Wire Line
-	2250 4500 2250 4600
+	2250 2500 2250 4600
 Wire Wire Line
 	2050 2900 4950 2900
 Wire Wire Line
@@ -142,11 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 3400 1750 3400
 Wire Wire Line
-	1850 1600 1850 1700
-Wire Wire Line
-	1850 1700 1850 3300
-Wire Wire Line
-	1850 3300 1850 3400
+	1850 1600 1850 3400
 Wire Wire Line
 	1750 1700 1850 1700
 Connection ~ 1850 1700
@@ -156,13 +138,7 @@ Connection ~ 1850 3300
 Wire Wire Line
 	1950 3600 1750 3600
 Wire Wire Line
-	1950 1700 1950 1900
-Wire Wire Line
-	1950 1900 1950 2000
-Wire Wire Line
-	1950 2000 1950 3600
-Wire Wire Line
-	1950 3600 1950 3700
+	1950 1700 1950 3700
 Wire Wire Line
 	1950 1900 1750 1900
 Wire Wire Line
@@ -175,17 +151,13 @@ Connection ~ 1950 3600
 Wire Wire Line
 	1750 2200 2050 2200
 Wire Wire Line
-	2050 2200 2050 2900
-Wire Wire Line
-	2050 2900 2050 3900
+	2050 2200 2050 3900
 Wire Wire Line
 	2050 3900 1750 3900
 Wire Wire Line
 	2150 4000 1750 4000
 Wire Wire Line
-	2150 2300 2150 3000
-Wire Wire Line
-	2150 3000 2150 4000
+	2150 2300 2150 4000
 Wire Wire Line
 	2150 2300 1750 2300
 Connection ~ 2050 2900
